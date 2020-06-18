@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    tools:context=".event_layout2">
+    <TextView
+        android:id="@+id/username_tv"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="#000000"
+        android:textAppearance="@style/TextAppearance.AppCompat.Large"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+    <TextView
+        android:id="@+id/phone_tv"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="#000000"
+
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/username_tv" />
+
+    <Button
+        android:id="@+id/edit_user_b"
+        android:layout_width="100dp"
+        android:layout_height="80dp"
+        android:minWidth="0dp"
+        android:minHeight="0dp"
+        android:text="Edit"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toLeftOf="@+id/delete_user_b"
+        app:layout_constraintTop_toBottomOf="@+id/phone_tv" />
+
+    <Button
+        android:id="@+id/delete_user_b"
+        android:layout_width="84dp"
+        android:layout_height="82dp"
+        android:minWidth="0dp"
+        android:minHeight="0dp"
+        android:text="Delete"
+        app:layout_constraintLeft_toRightOf="@+id/edit_user_b"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/phone_tv" />
+</android.support.constraint.ConstraintLayout>

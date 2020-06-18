@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".event_layout">
+    <TextView
+        android:id="@+id/add_tv"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginRight="8dp"
+        android:text="Add product"
+        android:textAppearance="@style/TextAppearance.AppCompat.Large"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent"  />
+
+    <android.support.design.widget.TextInputLayout
+        android:id="@+id/product_name_la"
+        android:layout_width="267dp"
+        android:layout_height="20dp"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/add_tv">
+
+        <EditText
+            android:id="@+id/product_name_a"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="product name" />
+    </android.support.design.widget.TextInputLayout>
+
+    <android.support.design.widget.TextInputLayout
+        android:id="@+id/product_price_la"
+        android:layout_width="263dp"
+        android:layout_height="18dp"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/product_name_la">
+
+        <EditText
+            android:id="@+id/product_price_a"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="product price" />
+    </android.support.design.widget.TextInputLayout>
+
+    <android.support.design.widget.TextInputLayout
+        android:id="@+id/product_key_la"
+        android:layout_width="271dp"
+        android:layout_height="21dp"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/product_price_la">
+
+        <EditText
+            android:id="@+id/product_key_a"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="product key" />
+    </android.support.design.widget.TextInputLayout>
+
+    <android.support.design.widget.TextInputLayout
+        android:id="@+id/cat_name_la"
+        android:layout_width="276dp"
+        android:layout_height="21dp"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/product_key_la">
+
+        <EditText
+            android:id="@+id/cat_name_a"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="cat name" />
+    </android.support.design.widget.TextInputLayout>
+
+    <Button
+        android:id="@+id/add_product"
+
+        android:layout_width="wrap_content"
+        android:layout_height="85dp"
+        android:text="Add proudct"
+
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/cat_name_la" />
+
+
+</android.support.constraint.ConstraintLayout>

@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "699461587780",
+    "firebase_url": "https://nnproject-ebba5.firebaseio.com",
+    "project_id": "nnproject-ebba5",
+    "storage_bucket": "nnproject-ebba5.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:699461587780:android:6c7217772a699d46",
+        "android_client_info": {
+          "package_name": "com.example.rubafikri.myapplicationandriod"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "699461587780-hhactpdbtkfsk6r1p83gaul8fcnv21v2.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDspFpvvbDvHAOIYEEYxrg7IvWS8rNDlHU"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "699461587780-hhactpdbtkfsk6r1p83gaul8fcnv21v2.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
